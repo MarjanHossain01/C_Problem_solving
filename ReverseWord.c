@@ -8,11 +8,6 @@ int main()
     printf("Enter word: ");
     scanf("%s", word);
 
-    printf("%d characters",strlen(word));
-    count = strlen(word);
-
-    for(i=count; i>=0; i--){
-        printf("%c",word[i]);
-    }
+    printf("Flipped: %s",strrev(word));
     return 0;
 }
